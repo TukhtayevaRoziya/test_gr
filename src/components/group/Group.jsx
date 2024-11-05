@@ -117,8 +117,6 @@ export const Group = () => {
     setCreateVisible(true);
   };
 
-  console.log(newEndDate)
-
   const createHandleOk = () => {
     form
       .validateFields()
